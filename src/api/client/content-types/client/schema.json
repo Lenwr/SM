@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shipperName": {
+      "type": "string"
+    },
+    "shipperSurname": {
+      "type": "string"
+    },
+    "shipperAddress": {
+      "type": "string"
+    },
+    "shipperPhone": {
+      "type": "biginteger"
+    },
+    "packageDescription": {
+      "type": "string"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "packageQuantity": {
+      "type": "string"
+    },
+    "recipientName": {
+      "type": "string"
+    },
+    "recipientAddress": {
+      "type": "string"
+    },
+    "recipientPhone": {
+      "type": "biginteger"
+    }
+  }
+}
